@@ -2,6 +2,7 @@
   display: flex;
   padding: 2px;
   transition: 0.3s;
+  background: rgba(255, 255, 255, 1)
 }
 .gallery__column {
   display: flex;
@@ -22,13 +23,13 @@
   position: relative;
 }
 .gallery__image {
-  color: white;
+  color: black;
   display: block;
   width: 100%;
   transition: 0.3s;
 }
 .gallery__image:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .gallery__caption {
   position: absolute;
@@ -38,8 +39,8 @@
   width: 100%;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
-  color: black;
+  color: white;
   opacity: 0;
-  background: linear-gradient(0deg, rgba(45, 45, 45, 0.5) 0%, rgba(45, 45, 45, 1) 100%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255 ,255 , 0) 100%);
   transition: 0.3s;
 }
