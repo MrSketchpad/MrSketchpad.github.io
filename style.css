@@ -4,6 +4,13 @@
   transition: 0.3s;
   background: rgba(30, 30, 30, 1)
 }
+@media only screen {
+  .gallery__column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+}
 .gallery__column {
   display: flex;
   flex-direction: column;
