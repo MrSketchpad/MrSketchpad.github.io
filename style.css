@@ -17,15 +17,12 @@
    .desktop {display: none;}
 }
 
-.desktop {
-  background-color: rgba(30, 30, 30, 0)
-}
 
 .gallery {
   display: flex;
   transition: 0.3s;
   padding: 50px;
-  position: absolute;  background: rgba(45, 45, 45, 1)
+  position: absolute;  background: rgba(50, 50, 50, 1)
 }
 .gallery__column {
   display: flex;
