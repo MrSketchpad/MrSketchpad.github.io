@@ -1,0 +1,50 @@
+.full_image {
+	position: fixed;
+	height: 99%;
+	widows: auto;
+}
+.rig_image {
+	position: absolute;
+	width: 17%;
+	margin: 5% 66% 0%;
+}
+.closeup_image {
+	position: absolute;
+	width: 17%;
+	margin: 5% 66% 0%;
+}
+.image_text {
+	position: relative;
+	top: 250px;
+	margin: 0% 35% 0%;
+	font-family: sf_ui__textregular;
+ 	font-size: 45px;
+ 	width: 30%;
+ 	line-height: 75px;
+}
+.text {
+	position: relative;
+	top: 250px;
+	margin: 0% 35% 0%;
+	font-family: sf_ui__textregular;
+ 	font-size: 45px;
+ 	width: 50%;
+ 	line-height: 75px;
+}
+.image_desc {
+	position: absolute;
+	top: 250px;
+	margin: 27.5% 66% 0%;
+	font-family: sf_ui__textregular;
+ 	font-size: 45px;
+ 	width: 18%;
+ 	line-height: 75px;
+}
+.header {
+	position: relative;
+	top: 150px;
+	margin: 0% 35% 0%;
+	font-family: sf_ui__textheavy;
+ 	font-size: 200px;
+ 	width: 55.6%;
+}
