@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://astrouri.com/stylesheet.css">
 
 </head>
-<body style="background-color:white;">
+<body style="background-color:rgba(230, 230, 230, 1);">
     <img src="https://astrouri.com/images/full/MilkyWay.png" alt="The Milky Way core" class="full_image">
     <div class="header">Widefield Milky Way</div>
     <img src="RigImage.jpg" alt="The Milky Way behind my Astro rig" class="rig_image">
@@ -19,6 +19,64 @@
     <img src="NebulosityCloseUp.png" alt="Nebulae in the Milky Way Core" class="closeup_image">
     <div class="image_text">There a few things going on in this image. I had clouds throughout the whole imaging session, and they were present in every single one of my sub exposures. After stacking them, though, I actually quite like the cloud look.<br>
     In the Milky Way itself, you can see lanes of dark dust blocking light from the stars behind them. In areas without too much dark dust, the billions of stars in the Milky Way are visible as bright golden/yellow areas. With a sufficient focal length and aperture, you can resolve these stars individually.<br>
-    Additionally, numerous nebulae are visible dotted around the dark part of the Milky Way. The brightest ones, the Lagoon, Trifid and Eagle nebulae, are visible as purple dots scattered throughout the dark lanes. Unforunately, with such a wide focal length, there isn't much detail.</div>
+    Additionally, numerous nebulae are visible dotted around the dark part of the Milky Way. The brightest ones, the Lagoon, Trifid and Eagle nebulae, are visible as purple dots scattered throughout the dark lanes. Unforunately, with such a wide focal length, there isn't much detail.<br><br><br></div>
+    <div class="sub_header">Aquisition:</div>
+        <div class="text">
+        <ul>
+            <li><b>Camera</b>: Nikon D5200 (Stock)</li>
+            <li><b>Lens</b>: Rokinon 135mm @ f/2</li>
+            <li><b>Tracker</b>: Sky Watcher Star Adventurer 2i<br></li>
+        </ul>
+        <ul>
+            <li><b>Lights</b>: 7x30s</li>
+            <li><b>Flats</b>: 50</li>
+            <li><b>Bias</b>: 50</li>
+        </ul><br></div>
+    <div class="sub_header">Processing:</div>
+            <div class="text">
+            Stacked in Deep Sky Stacker.<br><br>
+            <b>Pixinsight</b><br>
+            <ul>
+                <li>Photometric Color Calibration on the stacked image.</li>
+                <li>Starnet 2 with Linear and Create Starmask boxes checked.</li>
+                <li>On starless image:</li>
+                <ul>
+                    <li>Dark Structure Enhance at 40% power to increase contrast and make dark nebulosity pop more</li>
+                    <li>NoiseXTerminator at 75% power with 25% detail</li>
+                    <li>Deconvulate on default settings with 5 iterations to sharpen smaller details</li>
+                    <li>Apply ScreenTransferFunction autostretch on image</li>
+                    <li>Slightly increase black point using HistogramTransformation</li>
+                    <li>Export to Photoshop as TIFF</li>
+                </ul>
+                <li>On stars image:</li>
+                <ul>
+                    <li>Stretch with HistogramTransformation until they were to my liking. Stretching them too much would overpower faint details in the galaxy, so I was conservative with the stretching.</li>
+                    <li>SaturationTransformation at 0.5<br></li>
+                </ul>
+            </ul>
+            <b>Photoshop</b><br>
+            <ul>
+                <li>Mask galaxy to slightly brighten it and slightly darken background</li>
+                <li>Reduce saturation and vibrance on background by about 30%</li>
+                <li>Color balance on the galaxy to slightly push it towards the reds/purples</li>
+                <li>Camera Raw Filter:</li>
+                <ul>
+                    <li>Exposure: +30%</li>
+                    <li>Contrast: +50%</li>
+                    <li>Shadows: -100%</li>
+                    <li>Whites: +10%</li>
+                    <li>Highlights: +15%</li>
+                    <li>Clarity: +50%</li>
+                    <li>Dehaze: +15%</li>
+                </ul>
+                <li>Add signature<br></li>
+                <li>Export to Pixinsight as TIFF<br></li>
+            </ul>
+            <b>Back in Pixinsight</b><br>
+            <ul>
+                <li>PixelMath to combine stars and starless images. I used <a href="https://www.nightphotons.com/guides/star-addition">this</a> guide to do this.</li>
+                <li>Export as PNG<br><br><br><br><br><br><br><br></li>
+            </ul>
+        </div>
 </body>
 </html>
