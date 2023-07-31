@@ -8,6 +8,7 @@ html, body {
   background: rgb(15, 15, 15);
   margin: 0px;
   padding: 0px;
+  max-width: 100%;
 }
 
 .content {
@@ -124,7 +125,7 @@ html, body {
   z-index: 1;
   height: 135px;
   object-fit: cover;
-  min-width: 5000px;
+  min-width: 1900px;
 }
 
 .option {
