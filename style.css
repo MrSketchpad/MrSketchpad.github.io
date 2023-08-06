@@ -9,6 +9,7 @@ html, body {
   margin: 0px;
   padding: 0px;
   max-width: 100%;
+  min-width: 1650px;
 }
 
 .content {
@@ -40,18 +41,16 @@ html, body {
   display: block;
   z-index: 0;
   top: 210px;
-  left: max(50%, 960px);
-  max-height: 52.1%;
-  max-width: 93%;
+  left: max(50%, 960px);;
   margin-left: -880px;
-  transform: scale();
 }
+
 
 
 /* +520 each time */
 
 #rectangle2 {
-  top: 730px;
+  top: 730px+52.4%;
 }
 
 #rectangle3 {
@@ -125,7 +124,7 @@ html, body {
   z-index: 1;
   height: 135px;
   object-fit: cover;
-  min-width: 1900px;
+  min-width: 1560px;
 }
 
 .option {
@@ -135,6 +134,7 @@ html, body {
 }
 
 .page_title {
+
   position: absolute;
   font-family: sf_ui__textheavy;
   font-size: 40px;
@@ -184,4 +184,32 @@ html, body {
   margin: 0px 960px 25px;
   overflow-wrap: break-word;
   line-height: 25px;
+}
+
+@media screen and (max-width: 1600px) {
+  .gallery1 {
+    width: 1388px;
+    height: 398px;
+  }
+  .gallery__image {
+    width: 780px;
+  }
+  .caption {
+    width: 550px;
+    margin-left: 780px;
+    left: 30px;
+    font-size: 11.4px;
+    top: 65px;
+  }
+  .title {
+    margin-left: 780px;
+    left: 30px;
+    top: 25px;
+  }
+  .starfield {
+    width: 1560px;
+  }
+  .gallery1 {
+    height: height*0.75;
+  }
 }
