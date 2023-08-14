@@ -41,7 +41,7 @@ html, body {
   display: block;
   z-index: 0;
   top: 210px;
-  left: max(50%, 960px);;
+  left: max(50%, 0px);
   margin-left: -880px;
 }
 
@@ -50,7 +50,7 @@ html, body {
 /* +520 each time */
 
 #rectangle2 {
-  top: 730px+52.4%;
+  top: 730px;
 }
 
 #rectangle3 {
@@ -87,6 +87,10 @@ html, body {
 
 #rectangle12 {
   top: 5410px;
+}
+
+#rectangle13 {
+  top: 5930px;
 }
 
 .gallery__link {
