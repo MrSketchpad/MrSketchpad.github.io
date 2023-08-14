@@ -41,7 +41,7 @@ html, body {
   display: block;
   z-index: 0;
   top: 210px;
-  left: max(50%, 0px);
+  left: max(50%, 960px);;
   margin-left: -880px;
 }
 
