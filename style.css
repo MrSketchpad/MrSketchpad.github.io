@@ -155,6 +155,18 @@ html, body {
   text-decoration: none;
 }
 
+.subtitle {
+  position: absolute;
+  left: 850px;
+  font-family: sf_ui__textheavy;
+  font-size: 24px;
+  color: rgb(150, 150, 150);  
+  text-decoration: none;
+  text-align: center;
+  top: 170px;
+
+}
+
 .title_subscript {
   position: absolute;
   font-family: sf_ui__textregular;
@@ -233,5 +245,9 @@ html, body {
   .wrapper {
     left: 75px;
     top: 60px;
+  }
+  .subtitle {
+    left: 675px;
+    top: 160px;
   }
 }
