@@ -1,0 +1,29 @@
+<?xml version="2.0" encoding="UTF-8"?>
+<xri version="2.0">
+  <description>
+     <p>
+        Multiscale iHDR script
+     </p>
+  </description>
+   <platform os="all" arch="noarch" version="1.6.9:1.8.9">
+      <package fileName="iHDR.zip"
+               sha1="76aaf89de31002494c3385e5b2a1dab657677b7c"
+               type="script"
+               releaseDate="20240129">
+         <title>
+            Multiscale iHDR Script
+         </title>
+         <remove>
+            doc
+         </remove>
+         <description>
+            <p>
+               This update adds the iHDR script to the Scripts section of PixInsight.
+            </p>
+            <p>
+               Made by Uri Darom
+            </p>
+         </description>
+      </package>
+   </platform>
+</xri>
