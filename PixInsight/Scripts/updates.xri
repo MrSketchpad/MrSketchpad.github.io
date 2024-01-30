@@ -5,7 +5,7 @@
         Multiscale iHDR script
      </p>
   </description>
-   <platform os="all" arch="noarch" version="1.6.9:1.8.9">
+   <platform os="all" arch="noarch" version="1.6.9:1.8.9-1">
       <package fileName="iHDR.zip"
                sha1="76aaf89de31002494c3385e5b2a1dab657677b7c"
                type="script"
