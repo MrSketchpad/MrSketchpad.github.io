@@ -7,16 +7,16 @@
   </description>
    <platform os="all" arch="noarch" version="1.8.9-1:1.9.1">
       <package fileName="iHDR20240214v20.zip"
-               sha1="8f4e38472683834839329f495084f0a2e758aa2a"
+               sha1="40d891dc6db4d3007937d624a8cc522383b46fa1"
                type="script"
-               releaseDate="20240215">
+               releaseDate="20240225">
          <title>
             Multiscale iHDR Script
          </title>
          <remove/>
          <description>
             <p>
-               This update adds the iHDR script to the Scripts section of PixInsight.
+               Made some small UI changes.
             </p>
             <p>
                Made by Uri Darom
