@@ -6,8 +6,8 @@
      </p>
   </description>
    <platform os="all" arch="noarch" version="1.8.9-1:1.9.1">
-      <package fileName="iHDR20240225v210.zip"
-               sha1="40d891dc6db4d3007937d624a8cc522383b46fa1"
+      <package fileName="iHDR20240417v212.zip.zip"
+               sha1="79ea91056af7e0f180cb8d9aa08a417485d0a104"
                type="script"
                releaseDate="20240225">
          <title>
