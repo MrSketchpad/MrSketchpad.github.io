@@ -7,7 +7,7 @@
   </description>
    <platform os="all" arch="noarch" version="1.8.9-1:1.9.1">
       <package fileName="iHDR20240418v212.zip"
-               sha1="8ca0bee1849db78f9325037da51ecda106fddb05"
+               sha1="ec41b3172e7ddd3724a3b894782b2e55d1d5861c"
                type="script"
                releaseDate="20240418">
          <title>
