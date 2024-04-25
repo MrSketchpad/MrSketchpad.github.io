@@ -6,10 +6,10 @@
      </p>
   </description>
    <platform os="all" arch="noarch" version="1.8.9-1:1.9.1">
-      <package fileName="iHDR20240418v212.zip"
-               sha1="1725cd6226d452ad84e0ae542ae81420f052eeb1"
+      <package fileName="iHDR20240424v212.zip"
+               sha1="3c81c7efece6f72a42fb9eceaec75b7cc49c3cf1"
                type="script"
-               releaseDate="20240418">
+               releaseDate="20240424">
          <title>
             Multiscale iHDR Script
          </title>
