@@ -6,20 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Using iHDR</title>
+  <title>iHDR Script</title>
   <meta name='description' content=''>
 
   <link rel="canonical" href="http://localhost:4000/blog/using-ihdr">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Using iHDR – Uri Darom">
+  <meta name="twitter:title" content="iHDR Script – Uri Darom">
   <meta name="twitter:description" content="One of the most difficult targets to process in astrophotography are ones with extremely large differences in brightness. These can include galaxies with very faint halos, or nebulae with very bright cores, such as the Orion Nebula; in all of these examples, the target includes both a very bright inner “core” area, and a faint outer “halo” area. The challenge is to display both of these components in the final image such that neither is too dark nor too bright, while still maintaining a natural looking result.
 ">
   <meta name="twitter:image:src" content="http://localhost:4000/images/resources/iHDR_Cover.png">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="Using iHDR – Uri Darom">
+  <meta property="og:title" content="iHDR Script – Uri Darom">
   <meta property="og:description" content="One of the most difficult targets to process in astrophotography are ones with extremely large differences in brightness. These can include galaxies with very faint halos, or nebulae with very bright cores, such as the Orion Nebula; in all of these examples, the target includes both a very bright inner “core” area, and a faint outer “halo” area. The challenge is to display both of these components in the final image such that neither is too dark nor too bright, while still maintaining a natural looking result.
 ">
   <meta property="og:image" content="http://localhost:4000/images/resources/iHDR_Cover.png">
@@ -136,7 +136,7 @@
       
       <div class="col col-6 col-d-12">
         <div class="post-image">
-          <img loading="lazy" src="/images/resources/iHDR_Cover.png" alt="Using iHDR">
+          <img loading="lazy" src="/images/resources/iHDR_Cover.png" alt="iHDR Script">
         </div>
       </div>
       
@@ -155,7 +155,7 @@
           
 
 
-          <h1 class="post__title">Using iHDR</h1>
+          <h1 class="post__title">iHDR Script</h1>
 
           <div class="post__meta">
             <div class="post__author-image">
@@ -184,7 +184,7 @@
 
 <p><img src="/images/resources/HDR_Target.png" alt="Example of high dynamic range target" width="1200" height="900" /></p>
 
-<p>I created iHDR (iterative High Dynamic Range) in an attempt to solve this issue. The program uses multiscale image masks across mulitple iterations in order to protect the bright areas of the image from being over-stretched, while stil revealing the faint structure that would otherwise be lost in a standard stretch.</p>
+<p>I created iHDR (iterative High Dynamic Range) in an attempt to solve this issue. The program uses multiscale image masks across multiple iterations in order to protect the bright areas of the image from being over-stretched, while still revealing the faint structure that would otherwise be lost in a standard stretch.</p>
 
 <p><span style="font-size:48px;"><strong>Installation</strong></span></p>
 
@@ -192,7 +192,7 @@
 
 <p><br />      1. In PixInsight, go to <code class="language-plaintext highlighter-rouge">Resources</code>–&gt; <code class="language-plaintext highlighter-rouge">Updates</code> –&gt; <code class="language-plaintext highlighter-rouge">Manage Repositories</code>
 <br />      2. Click the “Add” button on the bottom left of the popup
-<br />      3. Enter the repository <code class="language-plaintext highlighter-rouge">https://astrouri.com/pixinsight/scripts/iHDR/</code> and click “OK”
+<br />      3. Enter the repository <code class="language-plaintext highlighter-rouge">https://uridarom.com/pixinsight/scripts/iHDR/</code> and click “OK”
 <br />      4. Close the window and click on <code class="language-plaintext highlighter-rouge">Resources</code> –&gt; <code class="language-plaintext highlighter-rouge">Updates</code> –&gt; <code class="language-plaintext highlighter-rouge">Check For Updates</code>
 <br />      5. Click “Apply” on the bottom right of the popup and restart PixInsight
 <br />      6.  The script should appear under <code class="language-plaintext highlighter-rouge">Scripts</code> –&gt; <code class="language-plaintext highlighter-rouge">Sketchpad</code> –&gt; <code class="language-plaintext highlighter-rouge">iHDR</code></p>
@@ -208,10 +208,10 @@
     <p><strong>Target View</strong> is the image you want to stretch. The default value is automatically set to the image that was most recently interacted with.</p>
   </li>
   <li>
-    <p><strong>Preset</strong> is the pre-programmed settings you want to use. The options are Low HDR, Medium HDR, and High HDR. As the names suggest, Low HDR will protect the bright areas of the image the least, with the inverse being true for High HDR. Medium HDR will work well for almost all scenarios.</p>
+    <p><strong>Preset</strong> determines the pre-programmed settings you want to use. The options are Low HDR, Medium HDR, and High HDR. As the names suggest, Low HDR will protect the bright areas of the image the least, with the inverse being true for High HDR. Medium HDR will work well for almost all scenarios.</p>
   </li>
   <li>
-    <p><strong>Repititions</strong> is the amount of times the script will run through its entirety on the image. Values above 1 for this option are only relevant for targets with extremely high dynamic range, such as galaxies with very faint halos.</p>
+    <p><strong>Repetitions</strong> is the amount of times the script will run through its entirety on the image. Values above 1 for this option are only relevant for targets with extremely high dynamic range, such as galaxies with very faint halos.</p>
   </li>
   <li>
     <p><strong>Stretch Iterations</strong> determines the amount of times the script will generate a new mask and use it to stretch the image. Higher values will stretch the image more and reduce the strength of the brightness compression, while also increasing the runtime of the script.</p>
@@ -220,14 +220,14 @@
     <p><strong>Stretch Intensity</strong> determines the strength of the stretch that is applied to the image with each iteration. Higher values will lead to a brighter image.</p>
   </li>
   <li>
-    <p><strong>Mask Strength</strong> determines how much the bright areas of the image will be protected in each stretch. Higher values will lead to greater HDR compression, bringing the brightness of the bright and faint parts of the iamge closer together. Higher values also naturally reduce overall image contrast, so a compromise must be made between HDR strength and image contrast.</p>
+    <p><strong>Mask Strength</strong> determines how much the bright areas of the image will be protected in each stretch. Higher values will lead to greater HDR compression, bringing the brightness of the bright and faint parts of the image closer together. Higher values also naturally reduce overall image contrast, so a compromise must be made between HDR strength and image contrast.</p>
   </li>
   <li>
     <p><strong>Layer Preservation</strong> determines the smallest features in the image that will be protected during stretching. Smaller values will better protect small, bright features, at the cost of overall contrast.</p>
   </li>
 </ul>
 
-<p>The default settings were carefully chosen to provide the best results for the greatest number of scenarios. It is highly recommended to try the default settings with the Medium preset before attemtping to make any changes.</p>
+<p>The default settings were carefully chosen to provide the best results for the greatest number of scenarios. It is highly recommended to try the default settings with the Medium preset before attempting to make any changes.</p>
 
 <p><span style="font-size:48px;"><strong>Using The Script</strong></span></p>
 
@@ -257,7 +257,7 @@
   <ul class="share__list list-reset">
     <li class="share__item">
       <a class="share__link share__twitter"
-        href="https://twitter.com/intent/tweet?text=Using%20iHDR&url=http://localhost:4000/blog/using-ihdr"
+        href="https://twitter.com/intent/tweet?text=iHDR%20Script&url=http://localhost:4000/blog/using-ihdr"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
     </li>
@@ -269,13 +269,13 @@
     </li>
     <li class="share__item">
       <a class="share__link share__pinterest"
-        href="http://pinterest.com/pin/create/button/?url=http://localhost:4000/blog/using-ihdr&amp;media=http://localhost:4000/images/resources/iHDR_Cover.png&amp;description=Using%20iHDR"
+        href="http://pinterest.com/pin/create/button/?url=http://localhost:4000/blog/using-ihdr&amp;media=http://localhost:4000/images/resources/iHDR_Cover.png&amp;description=iHDR%20Script"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on Pinterest" rel="nofollow"><i class="ion ion-logo-pinterest"></i></a>
     </li>
     <li class="share__item">
       <a class="share__link share__linkedin"
-        href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blog/using-ihdr&title=Using%20iHDR&summary=&source=Uri%20Darom"
+        href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blog/using-ihdr&title=iHDR%20Script&summary=&source=Uri%20Darom"
         onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
         title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
     </li>
@@ -407,7 +407,7 @@
           </li>
           
           <li class="footer_nav__item">
-            <a href="/resources/" class="footer_nav__link">blog</a>
+            <a href="/blog/" class="footer_nav__link">Resources</a>
           </li>
           
         </ul>

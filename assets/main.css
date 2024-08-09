@@ -2276,6 +2276,7 @@
   .c-header {
     height: auto;
     transition: all 0.35s;
+    background-image: url("../images/ui/starfield2.png");
   }
   .c-header__inner {
     position: relative;
