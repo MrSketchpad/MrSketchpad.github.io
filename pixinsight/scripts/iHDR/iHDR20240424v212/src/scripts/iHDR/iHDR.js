@@ -667,7 +667,6 @@ function executeOnTargetView( view )
 
 function main()
 {
-   console.hide();
 
    if ( Parameters.isGlobalTarget )
    {
