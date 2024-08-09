@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xri version="1.0">
+  <description>
+     <p>
+        Multiscale iHDR script
+     </p>
+  </description>
+   <platform os="all" arch="noarch" version="1.8.9-1:1.9.1">
+      <package fileName="iHDR20240424v212.zip"
+               sha1="3c81c7efece6f72a42fb9eceaec75b7cc49c3cf1"
+               type="script"
+               releaseDate="20240424">
+         <title>
+            Multiscale iHDR Script
+         </title>
+         <remove/>
+         <description>
+            <p>
+               Made some small UI changes.
+            </p>
+            <p>
+               Made by Uri Darom
+            </p>
+         </description>
+      </package>
+   </platform>
+</xri>
