@@ -1,5 +1,5 @@
 #define TITLE "iHDR"
-#define VERSION "2.1.2"
+#define VERSION "2.1.3"
 
 #feature-id iHDR : Sketchpad > iHDR
 
