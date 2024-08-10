@@ -7,9 +7,9 @@
   </description>
    <platform os="all" arch="noarch" version="1.8.9-1:1.9.1">
       <package fileName="iHDR20240809v213.zip"
-               sha1="5f0e8e537ad9b652b58b520507787f1c1841abd8"
+               sha1="b61f3b8a27e13927aed8e4b15045f05fd3431392"
                type="script"
-               releaseDate="20240809">
+               releaseDate="20240810">
          <title>
             Multiscale iHDR Script
          </title>
