@@ -1,1 +1,1 @@
-Sitemap: https://uridarom.com/sitemap.xml
+Sitemap: https://uridarom.com//sitemap.xml
