@@ -72,6 +72,9 @@ var parameters = new parametersPrototype();
 parameters.setDefaults();
 parameters.getParameters();
 
+// --------------------------------- UI functions below adapted from built-in PixInsight scripts developed by Vincent Paris, John Murphy, and Juan Conejero ------------------------------------------ //
+
+
 // Returns a push button with given text and onClick function.
 function pushButtonWithTextOnClick( parent, text_, onClick_ )
 {
