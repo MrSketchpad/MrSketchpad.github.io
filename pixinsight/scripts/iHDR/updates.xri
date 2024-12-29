@@ -5,18 +5,18 @@
         Multiscale iHDR script
      </p>
   </description>
-   <platform os="all" arch="noarch" version="1.8.9-1:1.9.1">
+   <platform os="all" arch="noarch" version="1.8.9-1:1.9.2">
       <package fileName="iHDR20240809v213.zip"
                sha1="b61f3b8a27e13927aed8e4b15045f05fd3431392"
                type="script"
-               releaseDate="20240810">
+               releaseDate="20241229">
          <title>
             Multiscale iHDR Script
          </title>
          <remove/>
          <description>
             <p>
-               Fixed console dissapearing when opening script.
+               Added developer signature
             </p>
             <p>
                Made by Uri Darom
