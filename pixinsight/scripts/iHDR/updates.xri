@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xri version="1.0">
-  <description>
-     <p>
+   <description>
+      <p>
         Multiscale iHDR script
      </p>
-  </description>
+   </description>
    <platform os="all" arch="noarch" version="1.8.9-1:1.9.2">
-      <package fileName="iHDR20240809v213.zip"
-               sha1="4d88df1ed9d85fd84ee11397c3c26da11bcffde4"
-               type="script"
-               releaseDate="20241229">
+      <package fileName="iHDR20240809v213.zip" sha1="4d88df1ed9d85fd84ee11397c3c26da11bcffde4" type="script" releaseDate="20241229">
          <title>
             Multiscale iHDR Script
          </title>
@@ -25,3 +22,4 @@
       </package>
    </platform>
 </xri>
+<Signature developerId="Uri Darom" timestamp="2024-12-30T18:03:47.725Z" encoding="Base64">JsXBY+1/nBGdZyE4TImUeqqfboRzlCcPIvz0d0YKkYyR834KbGzpQuT/vVQMxCCjbaJbsG05opf8qhxLmCdwBA==</Signature>
