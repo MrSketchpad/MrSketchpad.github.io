@@ -6,14 +6,14 @@
      </p>
    </description>
    <platform os="all" arch="noarch" version="1.8.9-1:1.9.2">
-      <package fileName="iHDR20240809v213.zip" sha1="4d88df1ed9d85fd84ee11397c3c26da11bcffde4" type="script" releaseDate="20241229">
+      <package fileName="iHDR20240104_v213.zip" sha1="b0c11b68ed94d42f54a491464171b1d72f66829a" type="script" releaseDate="20250104">
          <title>
             Multiscale iHDR Script
          </title>
          <remove/>
          <description>
             <p>
-               Added developer signature
+               Updated script icon
             </p>
             <p>
                Made by Uri Darom
