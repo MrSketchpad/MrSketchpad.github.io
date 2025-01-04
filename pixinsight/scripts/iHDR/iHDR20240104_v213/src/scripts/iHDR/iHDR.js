@@ -1,15 +1,14 @@
 #define TITLE "iHDR"
 #define VERSION "2.1.3"
 
-#feature-id iHDR : Sketchpad > iHDR
-
-#feature-info This utility allows for the easy application of iteration-based HDR.< br />\
+#feature-id    iHDR : Sketchpad > iHDR
+#feature-icon  @script_icons_dir/iHDR.svg
+#feature-info  This utility allows for the easy application of iteration-based HDR.< br />\
     <br />\
     This script is used for HDR-based image stretching.\
     <br />\
 	Made by Mr. Sketchpad
 
-#feature-icon  @script_icons_dir/iHDR.svg
 
 #include <pjsr/ColorSpace.jsh>
 #include <pjsr/DataType.jsh>

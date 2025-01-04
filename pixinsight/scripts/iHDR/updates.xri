@@ -6,7 +6,7 @@
      </p>
    </description>
    <platform os="all" arch="noarch" version="1.8.9-1:1.9.2">
-      <package fileName="iHDR20240104_v213.zip" sha1="ccdd0a7af361756fbb5c4529b987019ef18d7568" type="script" releaseDate="20250104">
+      <package fileName="iHDR20240104_v213.zip" sha1="bd4186d3e074f2db77ea2fc1c3ceb5bea5b894ce" type="script" releaseDate="20250104">
          <title>
             iHDR
          </title>
@@ -19,4 +19,4 @@
       </package>
    </platform>
 </xri>
-<Signature developerId="Uri Darom" timestamp="2025-01-04T21:13:30.386Z" encoding="Base64">GSc/uu6HdGm9S/drliAdQI4vBqSu7fJrKa1ZZNoDAAmCXgBws0kLialgjyzs60SRimF/27g8fetefkwvWGysCw==</Signature>
+<Signature developerId="Uri Darom" timestamp="2025-01-04T21:24:56.379Z" encoding="Base64">crwxxCmhvMQnD/tCt7tqYQM2ZAoAU1bfziZbrWd9Sj3Umx2zj/Ygc7QXardLE6eXn7m9uekHSUKEFjNwrBJ4CQ==</Signature>
