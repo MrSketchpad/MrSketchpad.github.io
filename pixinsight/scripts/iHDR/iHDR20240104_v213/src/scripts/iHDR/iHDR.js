@@ -9,6 +9,8 @@
     <br />\
 	Made by Mr. Sketchpad
 
+#feature-icon  @script_icons_dir/iHDR.svg
+
 #include <pjsr/ColorSpace.jsh>
 #include <pjsr/DataType.jsh>
 #include <pjsr/FrameStyle.jsh>
